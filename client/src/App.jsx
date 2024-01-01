@@ -10,7 +10,7 @@ function App() {
       .then((response) => response.json())
       .then((result) => setData(result));
   }, []);
-
+console.log(data.message)
   return (
     <div>
       <h1>Hello from the React Frontend!</h1>
