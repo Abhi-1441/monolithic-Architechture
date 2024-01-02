@@ -15,7 +15,7 @@ app.get('/api/data', (req, res) => {
 
 // Handle all other routes by serving the index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/dist/index.html'));
+  res.sendFile(path.join(__dirname, 'client/index.html'));
 });
 
 // Start the server
